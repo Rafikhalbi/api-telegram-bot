@@ -2,7 +2,7 @@ import telebot
 from re import search
 from requests import get
 
-token = '5490361434:AAEwMGledRVEqWBfiSVECyqBHzuF3-0lyro' # Your Token
+token = 'TOKEN' # Your Token
 bot = telebot.TeleBot(token, parse_mode=None)
 @bot.message_handler()
 def send_botMessage(message):
